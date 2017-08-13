@@ -7,5 +7,4 @@ def init():
 
     fresh_tomatoes.open_movies_page(movies)
 
-
 init()
