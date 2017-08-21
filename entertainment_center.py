@@ -25,7 +25,6 @@ def main():
             .set_trailer_youtube_id(movie_data['trailer_youtube_id'])\
             .set_trailer_youtube_url(movie_data['trailer_youtube_url'])
 
-        # Add movie object to movies list
         movies.append(movie)
 
     fresh_tomatoes.open_movies_page(movies)
