@@ -19,7 +19,7 @@ class Movie:
         :param title:
         :return self:
         """
-        self.poster_image_url = title
+        self.title = title
         return self
 
     def set_poster_image_url(self, poster_image_url):
