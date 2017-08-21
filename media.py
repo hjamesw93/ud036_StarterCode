@@ -1,6 +1,6 @@
 class Movie:
     """
-    Defines the structure of a Movie instance to be consumed by fresh_tomatoes.py.
+    Defines the structure of a Movie object to be consumed by fresh_tomatoes.py.
     'Setter' functions return self to facilitate function chaining.
     """
 
@@ -33,7 +33,7 @@ class Movie:
 
     def set_trailer_youtube_id(self, trailer_youtube_id):
         """
-        Set the youtube video id for the movie trailer
+        Set the YouTube video id for the movie trailer
         :param trailer_youtube_id:
         :return:
         """
@@ -42,7 +42,7 @@ class Movie:
 
     def set_trailer_youtube_url(self, trailer_youtube_url):
         """
-        Set the youtube video url for the movie trailer
+        Set the YouTube video url for the movie trailer
         :param trailer_youtube_url:
         :return:
         """
