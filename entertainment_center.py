@@ -5,8 +5,9 @@ import fresh_tomatoes
 
 def main():
     """
-    Loads movie data from json included movies.json file and creates Movie objects, appending to movies list.
-    Calls open_movies_page function from fresh tomatoes, passing movies list as parameter.
+    Loads movie data from json included movies.json file and creates Movie
+    objects, appending to movies list. Calls open_movies_page function from
+    fresh tomatoes, passing movies list as parameter.
     """
 
     movies = []

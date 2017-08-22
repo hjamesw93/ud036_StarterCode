@@ -1,12 +1,14 @@
 class Movie:
     """
-    Defines the structure of a Movie object to be consumed by fresh_tomatoes.py.
-    'Setter' functions return self to facilitate function chaining.
+    Defines the structure of a Movie object to be consumed by
+    fresh_tomatoes.py. 'Setter' functions return self to facilitate function
+    chaining.
     """
 
     def __init__(self):
         """
-        Movie constructor. Takes no additional parameters to enforce use of setter functions
+        Movie constructor. Takes no additional parameters to enforce use of
+        setter functions
         """
         self.title = ""
         self.poster_image_url = ""
